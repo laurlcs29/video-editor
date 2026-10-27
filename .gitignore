@@ -1,0 +1,13 @@
+# Footage and generated media stay local
+raw/*
+!raw/.gitkeep
+transcript/*.wav
+transcript/*.json
+cut.mp4
+cut.fcpxml
+*.fcpbundle/
+vendor/*
+!vendor/.gitkeep
+.mcp.json
+__pycache__/
+.DS_Store
